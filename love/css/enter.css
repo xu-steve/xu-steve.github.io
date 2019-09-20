@@ -1,0 +1,89 @@
+/* html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    } */
+    .swiper-container {
+      width: 80%;
+      margin: 0 10%;
+      height: 40%;
+      padding-top: 80%;
+
+    }
+    .swiper-container img{
+      width: 80%;
+      
+    
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      /* background: #fff; */
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    
+    
+    /* 输入框 */
+    .applyForDiv{
+    	height: 80px;
+    	/* width: 100%; */
+    	 margin: 0 34px;
+    	 background: #F0F5FE;
+    	 margin-top: 20px;
+    	 overflow: hidden;
+    }
+    .applyForImg{
+    	float: left;
+    	  margin:20px;
+        /* width: 8%; */
+    }
+    .applyForUsed{
+    	float: left;
+    	margin-top: 24px;
+    	    width: 75%;
+    }
+    .applyForUseInput{
+    	border: 0;  
+        outline: none; 
+        background-color: #F0F5FE;
+    	font-size: 26px;
+    	width: 80%;
+    }
+    .applyForSubmit{
+    	 margin: 20px 10%;
+    	-webkit-appearance:none;
+    	height: 75px;
+    	background: #4E5DD7;
+    	color: #fff;
+    	border-radius: 36px;
+    	    font-size: 22px;
+    		    width: 80%;
+    			 border: 0;  // 去除未选中状态边框
+            outline: none; // 去除选中状态边框
+            background-color: rgba(0, 0, 0, 0);// 透明背景
+    	}
+      .applyFor{
+          width: 80%;
+          margin: 0 10%;
+          padding: 70% 0;
+      }
